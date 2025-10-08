@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.x'  # Versión de Python
 
-    - - name: Run hola.py
+    - name: Run hola.py
   run: |
     export USER_KEY="test123"
     python hola.py
