@@ -5,3 +5,4 @@ with open("user_key.txt", "w") as file:
 print(f"Clave '{user_key}' guardada exitosamente en user_key.txt")
 
 print("Prueba 1")
+print("Prueba 2")
