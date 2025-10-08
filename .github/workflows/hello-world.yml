@@ -1,0 +1,25 @@
+name: Hello World Workflow
+
+# Se activa en cada push a master
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Máquina virtual Ubuntu
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4  # Clona tu repo
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'  # Versión de Python
+
+    - name: Run hola.py
+      run: python hola.py  # Ejecuta tu script
+
+    - name: Check output
+      run: echo "¡Todo salió bien!"
