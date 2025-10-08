@@ -1,5 +1,4 @@
 *.pyc
 __pycache__/
 *.log
-user_key.txt
-.env
+ user_key.txt
