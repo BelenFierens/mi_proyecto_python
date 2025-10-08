@@ -18,11 +18,8 @@ jobs:
         python-version: '3.x'
 
     - name: Run hola.py
-      run: |
-        export USER_KEY="test123"
-        python hola.py
-      env:
-        USER_KEY: "test123"
+      run: python hola.py
 
     - name: Check output
       run: echo "¡Todo salió bien!"
+      
