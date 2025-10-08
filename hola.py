@@ -1,6 +1,5 @@
-print("¡Hola, Belén! Esto es mi primer programa en Python con Git.")
-print("hola este es mi primer programa con Python")
-print("Seguimos aprendiendo Git y Python!!")
-print("Modificando en la rama prueba-rama")
-print("Cambio combinado desde master y conflicto-nuevo!")
-print("Seguimos aprendiendo Git y Python!")
+# Registro de Claves Seguras
+user_key = input("Ingresa tu clave personal: ")
+with open("user_key.txt", "w") as file:
+    file.write(user_key)
+print(f"Clave '{user_key}' guardada exitosamente en user_key.txt")
