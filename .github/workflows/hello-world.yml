@@ -1,29 +1,28 @@
 name: Hello World Workflow
 
-# Se activa en cada push a master
 on:
   push:
     branches: [ master ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Máquina virtual Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4  # Clona tu repo
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Versión de Python
-        
+        python-version: '3.x'
+
     - name: Run hola.py
-  run: |
-    export USER_KEY="test123"
-    python hola.py
-  env:
-    USER_KEY: "test123"
+      run: |
+        export USER_KEY="test123"
+        python hola.py
+      env:
+        USER_KEY: "test123"
 
     - name: Check output
       run: echo "¡Todo salió bien!"
