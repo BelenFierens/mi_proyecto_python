@@ -1,0 +1,24 @@
+name: Saludo Workflow
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Run saludo.py
+      run: python saludo.py
+
+    - name: Check output
+      run: echo "¡Ejecución exitosa!"
