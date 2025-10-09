@@ -66,3 +66,9 @@ Este documento describe mi proyecto Python para aprender Git y GitHub Actions.
 
 ¡Colabora! Crea una rama y abre un Pull Request.
 
+
+
+\## Nueva sección
+
+Este es un cambio en la rama para probar el PR.
+
