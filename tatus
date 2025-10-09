@@ -1,0 +1,23 @@
+[33m2941ec2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-clave-segura[m[33m)[m Añadida funcionalidad para registrar claves seguras
+[33m89e00dd[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m Añadido user_key.txt a .gitignore
+[33m90e1bb1[m Actualizado .gitignore con reglas para claves y temporales
+[33m2c0b332[m Añadido .gitignore para ignorar archivos temporales
+[33m61303e4[m Añadido README.md con descripción del proyecto
+[33me8c9c6f[m Actualización de hola.py para sincronizar con GitHub
+[33m2e496c0[m[33m ([m[1;32mconflicto-nuevo[m[33m)[m Cambio en conflicto-nuevo para simular conflicto
+[33m77e46b1[m Cambio inicial en master
+[33m6ff56e4[m Cambio inicial en master
+[33m720a73a[m Cambio inicial en conflicto-nuevo
+[33m9a166a4[m Cambio en conflicto-simulado
+[33m2b5ddbd[m Cambio en master para simular conflicto
+[33mbd9ab47[m Merge pull request #2 from BelenFierens/nueva-mejora
+[33m5534144[m[33m ([m[1;31morigin/nueva-mejora[m[33m, [m[1;32mnueva-mejora[m[33m)[m Añadido nueva mejora
+[33m3b1c987[m Merge pull request #1 from BelenFierens/mejora-hola
+[33mb846c21[m[33m ([m[1;31morigin/mejora-hola[m[33m, [m[1;32mmejora-hola[m[33m)[m Añadido mejora en equipo en hola.py
+[33m061170c[m[33m ([m[1;32mprueba-rama[m[33m)[m Añadido mensaje de modificacion de prueba-rama
+[33m5c302cb[m Añadido mensaje de aprendizaje
+[33m6fef033[m Actualizado hola.py con nuevo mensaje
+[33ma85ff0c[m Añadido archivo hola.py con mi primer programa Python
+[33m8059346[m Añadido Día 2: practicando más Git
+[33m92781c3[m Renombrado archivo a inicio.txt
+[33mf6f6267[m Añadido archivo inicio.txt.txt con mi primer mensaje
